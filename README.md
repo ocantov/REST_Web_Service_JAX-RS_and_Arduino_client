@@ -9,9 +9,16 @@ DS3231(Real-Time Clock)
 wiring: SCL > 21, SDA  > 20
 
 AM2302 (temperature-humidity sensor)
-
 wiring: Data out > 2
 
 ESP8266 (Wi-Fi)
-
 wiring: tx1,rx1
+
+
+Web Service
+There is a pre-builded WAR in Weather_API/target called Weather_API-0.0.1-SNAPSHOT.war, just run it with java -jar Weather_API-0.0.1-SNAPSHOT.war. The server container is Jetty Embedded so you just need to run it.
+I will listen to port 8080, Arduino will send data in Json format and the sever will print it formated in the console.
+
+You can also build it from the code with: maven clean install 
+
+# This readme needs more work, it's a draft. I'm improving it when i have free time in orden to document evething.
