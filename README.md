@@ -6,16 +6,12 @@ The cloud service is a Java REST API created with Jersey and embedded Jetty. It 
 The client application that runs in Arduino Mega (we need mega because of memory consumption of Digest algorithm) needs 3 modules: 
 
 DS3231(Real-Time Clock)  
-	
-wiring: 
-SCL   > 21	
-SDA  > 20
+wiring: SCL > 21, SDA  > 20
 
 AM2302 (temperature-humidity sensor)
-wiring:     
-		Data out >	2
+
+wiring: Data out > 2
 
 ESP8266 (Wi-Fi)
-	 wiring:
-		tx1
-		rx1
+
+wiring: tx1,rx1
