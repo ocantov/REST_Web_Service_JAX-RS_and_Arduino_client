@@ -5,7 +5,6 @@
 #include <RTClib.h>
 #include <DHT.h>
 #include <SimpleTimer.h>
-#include <DHT.h>
 
 
 #define DHTPIN 2
