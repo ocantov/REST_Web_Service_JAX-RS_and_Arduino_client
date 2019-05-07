@@ -21,4 +21,3 @@ I will listen to port 8080, Arduino will send data in Json format and the sever 
 
 You can also build it from the code with: maven clean install 
 
-# This readme needs more work, it's a draft and I'm improving it. Im going to document evething.
